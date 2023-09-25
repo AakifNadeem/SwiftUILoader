@@ -1,21 +1,21 @@
 # SwiftUILoader
-Custom Loader For SwiftUI
+Custom Loader For SwiftUI | SwiftUI Loader | Activity Indicator SwiftUI
 
 How to use it:
 
     import SwiftUI
-    import LoadingView
-
+    
     struct ExampleView: View {
     
-    @State var isLoading: Bool = false
+        @State var isLoading: Bool = false
     
-    var body: some View {
-       CustomCircleLoader(isShowing: $isLoading)
-          VStack {
-            //Your Code
+        var body: some View {
+           CustomCircleLoader(isShowing: $isLoading)
+              VStack {
+                //Your Code
+              }
           }
-      }
+        }
     }
 
   
